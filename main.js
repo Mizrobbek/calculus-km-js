@@ -8,10 +8,15 @@ $elform.addEventListener("submit", function (evt) {
 
   let level = $elLevel.value.trim();
 
-  let walk = Math.round($elLevel.value / 3.6);
-  let bike = Math.round($elLevel.value / 20.1);
-  let car = Math.round($elLevel.value / 70);
-  let plane = Math.round($elLevel.value / 800);
+  let walkScore = 3.6;
+  let bikeScore = 20.1;
+  let carScore = 70;
+  let planeScore = 800;
+
+  let walk = Math.round($elLevel.value / walkScore);
+  let bike = Math.round($elLevel.value / bikeScore);
+  let car = Math.round($elLevel.value / carScore);
+  let plane = Math.round($elLevel.value / planeScore);
 
   $elCard.innerHTML += `
     <li class="card_item">
