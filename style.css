@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1420px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info_input {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.info_btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: rgb(226, 221, 221);
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.info_btn:hover {
+  background-color: rgb(152, 152, 243);
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card_item {
+  width: 170px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.card_img {
+  margin-left: 20px;
+  width: 135px;
+  height: 135px;
+}
+
+.card_title {
+  font-size: 25px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.card_text {
+  font-size: 25px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.bike {
+  margin-top: 15px;
+  width: 125px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.car {
+  margin-top: 15px;
+  width: 120px;
+  height: 100px;
+  margin-bottom: 22px;
+}
